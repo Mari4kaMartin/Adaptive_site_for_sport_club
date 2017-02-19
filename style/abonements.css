@@ -1,0 +1,231 @@
+header {
+	display: flex;
+	flex-direction: row;
+	height: 6vw;
+	max-width: 100vw;
+	flex-wrap: wrap;
+}
+nav {
+	justify-content: space-around;
+	height: 6vw;
+}
+img {
+	margin-left: 5vw;
+	margin-bottom: 1vw;
+}
+
+.menu {
+	display: flex;
+}
+li {
+	list-style-type: none;
+	margin-right: 3.5vw;
+	padding-top: 1vw;
+	text-transform: uppercase;
+	font-family: 'Inconsolata', monospace;
+	font-size: 1.3vw;
+}
+.menu a {
+	text-decoration: none; 
+	color: #7d8c9b;
+	border-bottom: 0.3vw solid;
+	border-color: transparent;
+	padding-bottom: 2.2vw;
+}
+.menu a:hover {
+	color: #5f6a75;
+	border-bottom: 0.3vw solid #fbcc00;
+	padding-bottom: 2.15vw;
+}
+.caption p {
+	margin: 0;
+	padding-top: 1.5vw;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 2vw;
+	color: #5a6772;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+.caption {
+	background-color: #f7f5e6;
+	border-top: 0.1vw solid #d3d3c9;
+	height: 5vw;
+	text-align: center;
+}
+.blue-violet {
+	display: flex;
+	max-width: 100vw;
+	height: 35vw;
+}
+.blue {
+	width: 50vw;
+	background: url(../image/children.png) no-repeat;
+	background-position: center center;
+	background-size: cover;
+	position: relative;
+}
+.blue-card, .violet-card, .sea-card, .light-card {
+	position: absolute;
+	margin: 6vw;
+	left: 1vw;
+	width: 9vw;
+	height: 1.5vw;
+	padding: 0.3vw 0.7vw;
+	border-radius: 0.5vw;
+	background-color: #058cff;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Inconsolata', monospace;
+	font-size: 1.5vw;
+}
+.child-mega, .violet-bas, .sea-name, .light-name {
+	width: 12vw;
+	color: #fefefe;
+	position: absolute;
+	top: 10vw;
+	left: 7vw;
+	font-weight: 600;
+	font-size: 3.5vw;
+	
+}
+.child-condition, .violet-condition, .sea-condition, .light-condition {
+	position: absolute;
+	color: #fefefe;
+	width: 17vw;
+	top: 20vw;
+	left: 7vw;
+	line-height: 2vw;
+	font-size: 1.2vw;
+}
+.child-price, .violet-price, .sea-price, .light-price {
+	position: absolute;
+	background-color: #f5c600;
+	width: 7vw;
+	height: 2vw;
+	bottom: 2vw;
+	padding: 0.3vw;
+	right: 5vw;
+	border-radius: 0.5vw;
+	text-align: center;
+	font-weight: 600;
+	font-size: 1.8vw;
+}
+.violet {
+	width: 50vw;
+	background: url(../image/ball3.png) no-repeat;
+	background-position: center center;
+	background-size: cover;
+	position: relative;
+}
+.violet-card {
+	width: 11.5vw;
+	background-color: #db28b3;
+	color: #ffffff;
+}
+.arrow, .arrow-2, .sea-arrow, .light-arrow {
+	left: 31vw;
+	position: absolute;
+	text-transform: uppercase;
+	color: #ffffff;
+	background-color: #1da1cf;
+	font-family: 'Inconsolata', monospace;
+	width: 7vw;
+	height: 2vw;
+	border-radius: 0.5vw;
+	text-align: center;
+	font-size: 1.4vw;
+	padding: 0.7vw;
+	margin: 3vw 5vw;
+}
+.arrow:after, .arrow-2:after , .sea-arrow:after, .light-arrow:after{
+	content: '';
+	position: absolute;
+	left: 8.1vw;
+	top: 0.01vw;
+	border: 1.7vw solid transparent; border-left: 2vw solid #1da1cf;
+	border-radius: 0.5;
+}
+
+.sea-light {
+	display: flex;
+	max-width: 100vw;
+	height: 23vw;
+}
+.sea {
+	position: relative;
+	background: url(../image/sea.png) no-repeat;
+	background-position: center center;
+	width: 50vw;
+	background-size: cover;
+}
+.sea-card {
+	width: 11vw;
+	background-color: #02828e;
+	bottom: 12vw;
+}
+.sea-name {
+	font-size: 2.9vw;
+	width: 35vw;
+	top: 7vw;
+}
+.sea-condition {
+	top: 12vw;
+	width: 22vw;
+}
+.sea-arrow, .light-arrow {
+	bottom: 15vw;
+}
+.light {
+	position: relative;
+	background: url(../image/light.png) no-repeat;
+	background-position: center center;
+	width: 50vw;
+	background-size: cover;
+}
+.light-card {
+	background-color: #fff;
+	color: #5a6772;
+	width: 11vw;
+	bottom: 12vw;
+}
+.light-name {
+	color: #5a6772;
+	text-transform: uppercase;
+	width: 20vw;
+	top: 7vw;
+	font-size: 2.9vw;
+	
+}
+.light-condition {
+	color: #5a6772;
+	top: 12vw;
+}
+.info {
+	background: url(../image/info.png) no-repeat;
+	background-position: center center;
+	max-width: 100vw;
+	height: 45vw;
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+.info-string-1 {
+	margin: 0;
+	padding: 8vw 0;
+	font-size: 2vw;
+}
+.info-string-2 {
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 3.5vw;
+	margin: 0;
+	padding: 2vw;
+}
+.info-string-3 {
+	width: 47vw;
+	font-size: 1vw;
+	margin-left: 26vw;
+}
+	
